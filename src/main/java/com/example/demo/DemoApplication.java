@@ -22,7 +22,7 @@ public class DemoApplication {
 			for (int i = 0; i < max; i++) {
 				robot.keyPress(KeyEvent.VK_ALT);
 				robot.keyRelease(KeyEvent.VK_ALT);	
-				System.out.println("KC");
+				System.out.println("KC---" + System.currentTimeMillis());
 				Thread.sleep(wait)
 				;
 			}
